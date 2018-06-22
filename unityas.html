@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style/unityas.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+	<title>Assignments Workshop Computer Vision</title>
+</head>
+<body>
+  <nav id="navigation" class="navbar navbar-default navbar-expand-lg navbar-light bg-light fixed-top" role="navigation">
+    <div class="container">
+        <ul class="navbar-nav">
+          <li class="nav-item active"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item text-capitalize" href="exgames.html">Exertion games</a>
+                    <a class="dropdown-item text-capitalize" href="ar.html">AR&VR</a>
+                    <a class="dropdown-item text-capitalize" href="wear.html">Wearables</a>
+                    <a class="dropdown-item text-capitalize" href="artif.html">Artificial creatures</a>
+                </div><!-- drop-down -->
+              </li>
+              <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Workshops</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item text-capitalize" href="compVision.html">Computer vision</a>
+                  <a class="dropdown-item text-capitalize" href="unityas.html">Unity/Projection mapping</a>
+                  <a class="dropdown-item text-capitalize" href="aroneas.html">Arduino</a>
+                </div><!-- drop-down -->
+              </li>
+              <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Excursion</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item text-capitalize" href="excas.html">Assignments</a>
+                  <a class="dropdown-item text-capitalize" href="excref.html">Reflect</a>
+                </div><!-- drop-down -->
+              </li>
+              <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lab Weeks</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item text-capitalize" href="labproc.html">Process</a>
+                  <a class="dropdown-item text-capitalize" href="labprod.html">Product</a>
+                  <a class="dropdown-item text-capitalize" href="labref.html">Reflect</a>
+                </div><!-- drop-down -->
+              </li>
+          </ul>
+        </div><!-- colapse -->
+      </div><!-- container -->
+  </nav>
+  <div class="container window">
+    <h1>Assignments Workshop Computer Vision</h1>
+    <hr>
+    <p>
+      During this workshop I've worked with Unity and MadMapper. Unity is a cross-platform game engine which is primarily used to develop both three-dimensional and two-dimensional video games and simulations for computers, consoles, and mobile devices. MadMapper is an advanced tool for video and light mapping, adapted for various fields, such as architectural video projection, art installation, stage design and live show, MadMapper software made possible hundreds of projects around the globe by an incredibly active user community of Artists looking for a fast, powerful and user-friendly mapping software.
+    </p>
+  </div><!-- container -->
+  <div class="container window">
+    <h1>Unity</h1>
+    <h2>Step 1: Create a site</h2>
+    <hr>
+    <p>
+      When you start a new project, your scene is completely empty. The first thing you are going to need is the terrain (GameObject > 3D object > Terrain).
+    </p>
+    <img src="images/unity/step1.png" alt="code" class="screenshot img-fluid">
+  </div><!-- container -->
+    <div class="container window">
+    <h2>Step 2: Add a player</h2>
+    <hr>
+    <p>
+      In order to be able to walk through the virtual world, you need a virtual player that you can operate. For this purpose you need to use  a package that comes with Unity in which all scripts are already processed to add a First-Person player.
+    </p>
+    <img src="images/unity/step2.png" alt="code" class="screenshot img-fluid">
+  </div><!-- container -->
+    <div class="container window">
+    <h2>Step 3: Add standard objects</h2>
+    <hr>
+    <p>
+      You can now walk around in your virtual world, but it is still completely empty with the exception of a few hills. This does not make an interesting world. Therefore you need to add a number of objects ( GameObject > 3D object > Cube).
+    </p>
+    <img src="images/unity/step3.png" alt="code" class="screenshot img-fluid as2">
+  </div><!-- container -->
+  <div class="container window">
+    <h2>Step 4: Add objects from the Asset Store</h2>
+    <hr>
+    <p>
+      Cubes are not very interesting when you want to create a realistic virtual world. You should add more complex objects. One way to acquire these more complex objects is via the Unity Asset Store. In this Store you can get all kinds of 3D models, animations, scripts, etc. that you can use in your virtual world. For some you will have to pay and others are free for you to use (Window > Asset Store).
+    </p>
+    <img src="images/unity/step4.png" alt="code" class="screenshot img-fluid">
+  </div><!-- container -->
+  <div class="container window">
+    <h2>Step 5: Set up trigger</h2>
+    <hr>
+    <p>
+      You can walk through the virtual world and see things, but real interaction is not available yet. You will add a trigger in this step so that when the player enters a certain area, something happens in the environment. In this case, make sure that when the player comes close to the asset, it will burst into flames (Add Component > Physics > Sphere Collider).
+    </p>
+    <img src="images/unity/step5.png" alt="code" class="screenshot img-fluid">
+  </div><!-- container -->
+  <div class="container window">
+    <h2>Step 6: Compile and export game</h2>
+    <hr>
+    <p>
+      You have now experienced that you can walk through your virtual world in the Game pane of Unity. But it is much more fun to make an actual application that you can use without needing to start Unity (File > Build Settings).
+    </p>
+    <img src="images/unity/step6.png" alt="code" class="screenshot img-fluid">
+  </div><!-- container -->
+  <div class="container window">
+    <h1>Mad Mapper</h1>
+    <h2>Step 1</h2>
+    <hr>
+    <p>
+      To get started you need to install Syphon library (Sketch > Import Library > Add Library > Syphon) and restart after. In the Processing application go to: Examples > Contributed Libraries > Syphon > SendScreen. Switch to the MadMapper application and create a new shape. 
+    </p>
+    <img src="images/madmapper/1.png" alt="code" class="screenshot img-fluid">
+  </div><!-- container -->
+  <div class="container window">
+    <h2>Step 2</h2>
+    <hr>
+    <p>
+      Now you can experiment with different shapes and surfaces or create multiple surfaces.
+    </p>
+    <img src="images/madmapper/2.png" alt="code" class="screenshot img-fluid" style="height: 40%;">
+    <img src="images/madmapper/3.png" alt="code" class="screenshot img-fluid" style="height: 40%;">
+  </div><!-- container -->
+  <div class="container window">
+    <h2>Result</h2>
+    <hr>
+    <img src="images/madmapper/4.jpg" alt="code" class="screenshot img-fluid" style="height: 50%;">
+    <iframe class="embed-responsive" width="560" height="315" src="https://www.youtube.com/embed/YWMeqAwld5Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div><!-- container -->
+  <script src="scripts/jquery.slim.min.js"></script>
+  <script src="scripts/popper.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+
+</body>
+</html>
